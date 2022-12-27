@@ -13,3 +13,15 @@ checkNumber_odd <- function(n)
   return(msg)
 }
 checkNumber_odd(7)
+
+check_num <- function(n)
+{
+  if (!is.numeric(n))
+  {
+    return(0)
+  }
+  else
+  {
+    return(1)
+  }
+}

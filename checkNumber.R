@@ -25,3 +25,4 @@ check_num <- function(n)
     return(1)
   }
 }
+check_num(130)
